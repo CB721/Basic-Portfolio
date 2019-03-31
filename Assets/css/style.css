@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  color: #eee;
+  background: #ffffff;
+  overflow:hidden;
+  margin-top: 0px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.name-box {
+  background-color: #4aaaa5;
+  width: 305px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 192px;
+}
+
+footer {
+  width: 100%;
+  background-color: #666666;
+  color:#ffffff;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 0px;
+  height:50px;
+  border-top: 5px solid #4aaaa5;
+  position: absolute;
+  bottom: 0px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+nav {
+  width:30%;
+  float:right;
+  margin-right: 160px;
+}
+  
+nav ul {
+  list-style-type:none;
+}
+  
+nav li {
+  float:left;
+  margin-right:5px;
+}
+
+.nav-links {
+  padding-top: 30px;
+}
+
+.nav-space {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+}
+
+hgroup {
+  width:70%;
+  float:left;
+  font-size: 50px;
+  margin-left: 150px;
+}
+
+body {
+  width: 100%;
+  background-image: url(../images/crossline-dots.png)
+}
+
+section {
+  width: 960px;
+  position: relative;
+  height: 400px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  margin-left: 192px;
+  margin-right: 192px;
+  color: #777777;
+  font-size: 16px;
+  word-wrap: normal;
+  border: #dddddd;
+}
+
+.profile_image {
+  position: relative;
+  float: left;
+  z-index: 1;
+  margin-right: 10px;
+}
+
+img {
+  width: 170px;
+  z-index: -1;
+}
+
+.links:hover {
+  background-image: linear-gradient(90deg, teal, blue);
+}
+
+.submit-button {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  border-color: #4aaaa5;
+  border-radius: .25rem;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.form-size {
+  width: 930px;
+  padding: .350rem .75rem;
+  margin-bottom: 10px;
+}
+
+.contact-header {
+  color: #4aaaa5;
+  font-size: 30px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 15px;
+}
+
+.form-group {
+  width: 900px;
+  padding: 1px;
+}
+
+.portfolio-examples {
+  float: left;
+  position: relative;
+  padding: 10px;
+  overflow: none;
+}
+
+.port-bar {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 170px;
+  height: 30px;
+  padding: 0px;
+  text-align: center;
+  background: #4aaaa5;
+}
+
+button {
+  background: #4aaaa5;
+  height: 30px;
+  width: 100px;
+  margin-left: 0px;
+  color: whitesmoke;
+  font-size: 16px;
+  text-align: center;
+}
+
+button:hover {
+  background: linear-gradient(90deg, teal, blue);
+}
